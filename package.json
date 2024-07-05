@@ -2,10 +2,13 @@
   "name": "testtwo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Architsoni09.github.io/TestTwo",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
